@@ -17,26 +17,26 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 
 ### Live Demo
 
-Check out the live version of my portfolio here: [Live URL](https://portfolio-29a4tychx-gustmrgs-projects.vercel.app/)
+Check out the live version of my portfolio here: [Live URL](https://portfolio-gustmrgs-projects.vercel.app/)
 
 ### How to Run Locally
 
 1. Clone the repository:
 
 ```bash
-    git clone https://github.com/your-username/your-portfolio-repo.git
+git clone https://github.com/gustmrg/portfolio.git
 ```
 
 2. Install dependencies:
 
 ```bash
-    npm install
+npm install
 ```
 
 3. Start the development server:
 
 ```bash
-    npm run dev
+npm run dev
 ```
 
 4. Open your browser and visit https://localhost:3000.
