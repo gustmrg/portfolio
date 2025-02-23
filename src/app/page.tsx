@@ -90,25 +90,27 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
+                title="BitFinance"
+                description="A full-stack finance app designed to simplify expense tracking and management."
+                image="/project-images/bitfinance.png"
+                repo="https://github.com/gustmrg/bitfinance-frontend"
+                link="https://gustavomiranda.dev/bitfinance/"
+                tags={[".NET", "C#", "React", "TailwindCSS", "TypeScript"]}
+              />
+              <ProjectCard
                 title="E-commerce Platform"
-                description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["Next.js", "Prisma", "Stripe"]}
+                description="A full-stack e-commerce platform built with .NET and RabbitMQ."
+                image="/project-images/nerd-store.png"
+                repo="https://github.com/gustmrg/nerd-store-enterprise"
+                tags={[".NET", "C#", "RabbitMQ", "Microservices"]}
               />
               <ProjectCard
                 title="Task Management App"
-                description="A real-time task management application with team collaboration features."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["React", "Node.js", "Socket.io"]}
-              />
-              <ProjectCard
-                title="AI Chat Interface"
-                description="An AI-powered chat interface with natural language processing capabilities."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["OpenAI", "Next.js", "TailwindCSS"]}
+                description="A simple and intuitive to-do list app designed to stay organized and productive."
+                image="/project-images/todo-list.png"
+                repo="https://github.com/gustmrg/react-todo-list"
+                link="https://react-todo-list-by-gustmrg.netlify.app"
+                tags={["React", "TypeScript", "Vite"]}
               />
             </div>
           </div>
